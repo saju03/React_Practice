@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px black;
+}
+.navbar-items > ul{
+    list-style-type: none;
+    display: flex;
+    
+
+}
+.navbar-items > ul > li{
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+.headder{
+    display: flex;
+    border: solid 1px black;
+}
+
+.card{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    flex-direction: column;
+    width: 200px;
+    border: solid 1px black;
+}
+.card >img{
+    width: 100%;
+    height: 180px;
+    
+}
+.body{
+    display: flex;
+}
